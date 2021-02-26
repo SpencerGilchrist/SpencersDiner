@@ -1,0 +1,12 @@
+>To test QY@ board type devise manager and it should show all devises connected to computer
+>>Ports comm and Lte
+>>>USB serial port Com XX
+
+>While loop-->(outside) configure port/ Tell it port name (Visa) Com XX 
+>> Set up Baud Rate (11900 bits/sec)
+>>>Set up Stop Bit (T/F) choose False
+>>>>Set up Time out, Default=10 sec, set to 5ms
+>>>>>Then we can open the port(connects into while loop that has a write and read buffer)
+>>>>>>Then we can close and check for errors!!!
+>>>>>>>See Labview example in files Under (LabView QYAT Board)
+
